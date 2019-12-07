@@ -1,0 +1,13 @@
+[
+    { "id" : 1, "skillname" : "C#.NET", "skilltype" : "web" },
+    { "id" : 2, "skillname" : "MVC & ASP.NET", "skilltype" : "web" },
+    { "id" : 3, "skillname" : "JavaScript(React, JQuery, Ajax, Razor)", "skilltype" : "web" },
+    { "id" : 4, "skillname" : "SQL Server", "skilltype" : "database" },
+    { "id" : 5, "skillname" : "Oracle", "skilltype" : "database" },
+    { "id" : 6, "skillname" : "Entity Framework", "skilltype" : "database" },
+    { "id" : 7, "skillname" : ".NET Web API", "skilltype" : "service" },
+    { "id" : 8, "skillname" : "MongoDB", "skilltype" : "database" },
+    { "id" : 9, "skillname" : "WCF", "skilltype" : "service" },
+    { "id" : 10, "skillname" : "TypeScript(Angular 7, Node, Express)", "skilltype" : "web" },
+    { "id" : 11, "skillname" : "Java Spring Boot", "skilltype" : "service" }
+]
