@@ -3,6 +3,7 @@ var router = express.Router();
 var cors = require('cors');
 
 var allowedOrigins = ['http://localhost:4200',
+                      'https://still-castle-86030.herokuapp.com',
                       'http://yourapp.com'];
 
 router.use(cors({
