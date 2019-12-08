@@ -2,7 +2,7 @@
 
 var bodyParser = require('body-parser');
 var express = require('express');
-const PORT = process.env.PORT = 3000;
+//const PORT = process.env.PORT = 3000;
 
 // Express Server Configuration 
 var app = express();
@@ -39,7 +39,7 @@ require('./routes/routes.js')(app);
 
 // Start the Express Server
 //app.listen(8082);
-app.listen(PORT, function() {
-    console.log('Listening on port: ',PORT);   
+app.listen(process.env.PORT, function() {
+    console.log('Listening on port: ',process.env.PORT);   
 });
 //console.log('Listening on port: ',process.env.PORT);
